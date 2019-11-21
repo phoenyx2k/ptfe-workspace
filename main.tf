@@ -9,5 +9,7 @@ resource "azurerm_resource_group" "main" {
   tags = {
     "environment" = "${var.environment}"
     "foo" = "Bar"
+    "owner" = "meNotYou" 
+    "environment" = "sbx"
   }
 }
